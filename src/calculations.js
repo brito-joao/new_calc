@@ -16,14 +16,14 @@ export function expressionCalculator(expression,element){
     //cannot end with an operator
 
     let operators = ["X","-","+","÷"];
-    console.log(expression.split(""));
+    
 
 
     
     if(operators.includes(element) && expression =="") return "";
     
     if(operators.includes(expression.split("")[expression.length-1])){
-        console.log("helfasdfa");
+        
         
         if( operators.includes(element)){
             return expression;
@@ -49,7 +49,7 @@ function equals(expression){
     //third: make a loop that goes finding operations and solves them 
     //fourth: repeate this for the + and - operations 
     // display the result 
-    console.log(expression.split(" "));
+    
     let expressionItems = expression.split(" ");
     
     //find if the expression contains any operator 

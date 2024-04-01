@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import { runDisplay } from './display';
 
-console.log("hello world");
 
 
 runDisplay();
