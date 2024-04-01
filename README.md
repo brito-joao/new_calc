@@ -1,23 +1,21 @@
-# Calculator
+# João's Calculator
 
-This is a simple calculator application that allows you to perform basic operations.
+This is a calculator made by me, João for a School project, with the goal of making dividing the code as much as possible, in order to make it more readable.
 
-## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
+## Link
+[MyCalc] (https://brito-joao.github.io/new_calc)
 
-### Usage
-1. Enter the first number.
-2. Select the operation.
-3. Enter the second number.
-4. Click on the "=" button to see the result.
+## Usage
 
-## Other
-- No artificial intelligence was used
-- created for my "Engenharia de software" course
+In order to use a [calculator]
+(https://en.wikipedia.org/wiki/Calculator), you have to first:
+1. Have a problem to solve
+2. Find out if that problem requires any math 
+3. If so, formulate a string of numbers and operators in your head
+4. Find the matching buttons with the numbers and operations you thought of in the last step
+5. Press "=" and have fun!
 
-Feel free to share any ideas on how I can change my code!
 
-João Brito
+## License
+ Made by João Brito in school, If you want you can use this code in any projects without mentioning me
+[MIT](https://choosealicense.com/licenses/mit/)
