@@ -10,20 +10,31 @@ export function runDisplay(){
 function loadElements(){
     //this will load to the page all of the elements that the page will know of
     const body = document.querySelector("body");
+    const div = document.createElement("div");
+    const title = document.createElement("p");
+    const footer = document.createElement("p");
+    div.className="calc";
+    title.innerText="My Calculator App";
+    title.className = "tit";
+    footer.innerText="Created by João Brito in 4/1/2024";
     let display = createDisplayScreen();
     let buttons = generateButtons();
     
     
-    body.append(display);
-    body.append(buttons);
+    div.append(display);
+    div.append(buttons);
+    body.append(title);
+    body.append(div);
     buttonEvent(display);
 
     //idea : just create anything and finish as fast as possible
 }
 function createDisplayScreen(){
     const display = document.createElement("input");
-    display.style.color="white";
+    display.style.color="rgb(0,255,0)";
     display.style.fontSize="1.5em";
+    display.style.textAlign="center";
+    display.style.borderRadius="1em";
     display.style.backgroundColor="black";
     display.setAttribute("text-align","right");
     display.setAttribute("readonly","readonly");
