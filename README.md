@@ -1,6 +1,6 @@
 # Calculator
 
-This is a simple calculator application that allows you to perform basic arithmetic operations.
+This is a simple calculator application that allows you to perform basic operations.
 
 ## Features
 - Addition
@@ -12,11 +12,12 @@ This is a simple calculator application that allows you to perform basic arithme
 1. Enter the first number.
 2. Select the operation.
 3. Enter the second number.
-4. Click on the "Calculate" button to see the result.
+4. Click on the "=" button to see the result.
 
-## Color Scheme
-- Background: Light Gray
-- Buttons: Blue
-- Text: Black
+## Other
+- No artificial intelligence was used
+- created for my "Engenharia de software" course
 
 Feel free to share any ideas on how I can change my code!
+
+João Brito

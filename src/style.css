@@ -8,7 +8,7 @@ body{
 
 .numpad{
     background-color: black;
-    width: 32.5em;
+    width: 30.5em;
     height: 30em;
     display: grid;
     grid-template-columns:repeat(3,10em);
